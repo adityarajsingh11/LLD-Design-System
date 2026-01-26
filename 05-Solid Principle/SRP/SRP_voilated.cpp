@@ -3,22 +3,22 @@
 
 using namespace std;
 
-// Product class representing any item in eCommerce.
+// Product class representing any item of any ECommerce.
 class Product {
 public:
     string name;
     double price;
-
+ 
     Product(string name, double price) {
         this->name = name;
         this->price = price;
     }
 };
 
-//1. ShoppingCart: Only responsible for Cart related business logic.
+// Violating SRP: ShoppingCart is handling multiple responsibilities
 class ShoppingCart {
 private:
-    vector<Product*> products; // Store heap-allocated products
+    vector<Product*> products; 
 
 public:
     void addProduct(Product* p) { 
@@ -29,7 +29,7 @@ public:
         return products;
     } 
 
-    //Calculates total price in cart.
+    // 1. Calculates total price in cart.
     double calculateTotal() {
         double total = 0;
         for (auto p : products) {
@@ -37,37 +37,17 @@ public:
         }
         return total;
     }
-};
 
-// 2. ShoppingCartPrinter: Only responsible for printing invoices
-class ShoppingCartPrinter {
-private:
-    ShoppingCart* cart; 
-
-public:
-    ShoppingCartPrinter(ShoppingCart* cart) { 
-        this->cart = cart; 
-    }
-
+    // 2. Violating SRP - Prints invoice (Should be in a separate class)
     void printInvoice() {
         cout << "Shopping Cart Invoice:\n";
-        for (auto p : cart->getProducts()) {
+        for (auto p : products) {
             cout << p->name << " - Rs " << p->price << endl;
         }
-        cout << "Total: Rs " << cart->calculateTotal() << endl;
-    }
-};
-
-// 3. ShoppingCartStorage: Only responsible for saving cart to DB
-class ShoppingCartStorage {
-private:
-    ShoppingCart* cart; 
-
-public:
-    ShoppingCartStorage(ShoppingCart* cart) { 
-        this->cart = cart; 
+        cout << "Total: Rs " << calculateTotal() << endl;
     }
 
+    // 3. Violating SRP - Saves to DB (Should be in a separate class)
     void saveToDatabase() {
         cout << "Saving shopping cart to database..." << endl;
     }
@@ -79,11 +59,8 @@ int main() {
     cart->addProduct(new Product("Laptop", 50000));
     cart->addProduct(new Product("Mouse", 2000));
 
-    ShoppingCartPrinter* printer = new ShoppingCartPrinter(cart);
-    printer->printInvoice();
-
-    ShoppingCartStorage* db = new ShoppingCartStorage(cart);
-    db->saveToDatabase();
+    cart->printInvoice();  
+    cart->saveToDatabase();
 
     return 0;
 }
