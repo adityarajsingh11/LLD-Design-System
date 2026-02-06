@@ -182,7 +182,7 @@ ConcreteProduct
 
 
 ```
-![Factory Method](images\FactoryMethodUML.png)
+![Factory Method](images/FactoryMethodUML.png)
 
 ---
 
@@ -223,7 +223,7 @@ ConcreteProduct
               returns ConcreteProductB
 ```
 
-![Factory Method Standard UML](images\FactoryMethodStandardUML.png)
+![Factory Method Standard UML](images/FactoryMethodStandardUML.png)
 
 
 
@@ -318,7 +318,7 @@ Factory creates:
 
 
 ```
-![Abstract Factory](images\AbstractFactoryUML.png)
+![Abstract Factory](images/AbstractFactoryUML.png)
 
 ---
 
@@ -370,7 +370,7 @@ Factory creates:
    ConcreteA1 / ConcreteA2            ConcreteB1 / ConcreteB2
 ```
 
-![Abstract Factory Method Standard UML](images\AbstractFactoryStandardUML.png)
+![Abstract Factory Method Standard UML](images/AbstractFactoryStandardUML.png)
 
 ---
 
