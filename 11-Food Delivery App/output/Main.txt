@@ -1,0 +1,36 @@
+User: Aditya is active.
+Found Restaurants:
+ - Bikaner
+Selected restaurant: Bikaner
+Items in cart:
+------------------------------------
+P1 : Chole Bhature : Rs.120
+P2 : Samosa : Rs.15
+------------------------------------
+Grand total : Rs.135
+Paid Rs.135 using UPI (1234567890)
+
+Notification: New Delivery order placed!
+---------------------------------------------
+Order ID: 1
+Customer: Aditya
+Restaurant: Bikaner
+Items Ordered:
+   - Chole Bhature (Rs.120)
+   - Samosa (Rs.15)
+Total: Rs.135
+Scheduled For: Sun Feb 08 18:35:36 2026
+Payment: Done
+---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
