@@ -197,7 +197,7 @@ HeightUp adds ability
 ↓
 Mario base ability
 ```
-![Chain Diagram](images/chainDiagram.png)
+![Chain Diagram](images/ChainDiagram.png)
 
 ---
 
