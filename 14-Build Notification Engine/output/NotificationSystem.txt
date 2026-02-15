@@ -1,0 +1,17 @@
+Logging New Notification : 
+[2026-02-15 14:22:00] Your order has been shipped!
+-- Customer Care
+
+Sending email Notification to: random.person@gmail.com
+[2026-02-15 14:22:00] Your order has been shipped!
+-- Customer Care
+
+Sending SMS Notification to: +91 9876543210
+[2026-02-15 14:22:00] Your order has been shipped!
+-- Customer Care
+
+Sending Popup Notification:
+[2026-02-15 14:22:00] Your order has been shipped!
+-- Customer Care
+
+
