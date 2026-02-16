@@ -1,0 +1,8 @@
+--- Toggling Light Button 0 ---
+Light is ON
+Light is OFF
+--- Toggling Fan Button 1 ---
+Fan is ON
+Fan is OFF
+--- Pressing Unassigned Button 2 ---
+No command assigned at button 2
