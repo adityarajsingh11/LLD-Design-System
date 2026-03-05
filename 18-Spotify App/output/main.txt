@@ -1,0 +1,60 @@
+
+Bluetooth device connected 
+Playing song: Zinda
+[BluetoothSpeaker] Playing: Zinda by Siddharth Mahadevan
+Pausing song: Zinda
+Resuming song: Zinda
+[BluetoothSpeaker] Playing: Zinda by Siddharth Mahadevan
+
+-- Sequential Playback --
+Playing song: Kesariya
+[BluetoothSpeaker] Playing: Kesariya by Arijit Singh
+Playing song: Chaiyya Chaiyya
+[BluetoothSpeaker] Playing: Chaiyya Chaiyya by Sukhwinder Singh
+Playing song: Tum Hi Ho
+[BluetoothSpeaker] Playing: Tum Hi Ho by Arijit Singh
+Playing song: Jai Ho
+[BluetoothSpeaker] Playing: Jai Ho by A. R. Rahman
+Completed playlist: Bollywood Vibes
+
+-- Random Playback --
+Playing song: Kesariya
+[BluetoothSpeaker] Playing: Kesariya by Arijit Singh
+Playing song: Tum Hi Ho
+[BluetoothSpeaker] Playing: Tum Hi Ho by Arijit Singh
+Playing song: Jai Ho
+[BluetoothSpeaker] Playing: Jai Ho by A. R. Rahman
+Playing song: Chaiyya Chaiyya
+[BluetoothSpeaker] Playing: Chaiyya Chaiyya by Sukhwinder Singh
+Completed playlist: Bollywood Vibes
+
+-- Custom Queue Playback --
+Playing song: Kesariya
+[BluetoothSpeaker] Playing: Kesariya by Arijit Singh
+Playing song: Tum Hi Ho
+[BluetoothSpeaker] Playing: Tum Hi Ho by Arijit Singh
+Playing song: Jai Ho
+[BluetoothSpeaker] Playing: Jai Ho by A. R. Rahman
+Completed playlist: Bollywood Vibes
+
+-- Play Previous in Sequential --
+Playing song: Kesariya
+[BluetoothSpeaker] Playing: Kesariya by Arijit Singh
+Playing song: Chaiyya Chaiyya
+[BluetoothSpeaker] Playing: Chaiyya Chaiyya by Sukhwinder Singh
+Playing song: Tum Hi Ho
+[BluetoothSpeaker] Playing: Kesariya by Arijit Singh
+Playing song: Chaiyya Chaiyya
+[BluetoothSpeaker] Playing: Chaiyya Chaiyya by Sukhwinder Singh
+Playing song: Tum Hi Ho
+[BluetoothSpeaker] Playing: Chaiyya Chaiyya by Sukhwinder Singh
+Playing song: Tum Hi Ho
+Playing song: Tum Hi Ho
+[BluetoothSpeaker] Playing: Tum Hi Ho by Arijit Singh
+Playing song: Jai Ho
+[BluetoothSpeaker] Playing: Jai Ho by A. R. Rahman
+Completed playlist: Bollywood Vibes
+Playing song: Tum Hi Ho
+[BluetoothSpeaker] Playing: Tum Hi Ho by Arijit Singh
+Playing song: Chaiyya Chaiyya
+[BluetoothSpeaker] Playing: Chaiyya Chaiyya by Sukhwinder Singh
