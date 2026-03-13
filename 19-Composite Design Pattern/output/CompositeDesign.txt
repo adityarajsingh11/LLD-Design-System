@@ -1,0 +1,31 @@
+// When we call the Openall folder then 
+
++ root
+    file2.txt
+    + docs
+        resume.pdf
+        notes.txt
+    + images
+        photo.jpg
+
+
+// when we ls only root 
+
+file1.txt
+file2.txt
++ docs
++ images
+
+// when we only ls of docs 
+
+resume.pdf
+notes.txt
+
+// when we apply cd in docs 
+
+resume.pdf
+notes.txt
+
+// total size of root 
+
+5
