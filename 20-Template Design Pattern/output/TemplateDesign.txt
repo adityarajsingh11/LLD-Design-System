@@ -1,0 +1,22 @@
+
+=== Neural Network Training ===
+[Common] Loading dataset from data/images/
+[Common] Splitting into train/test and normalizing
+[NeuralNet] Training Neural Network for 100 epochs
+[NeuralNet] Evaluating accuracy and loss on validation set      
+[NeuralNet] Serializing network weights to .h5 file
+
+=== Decision Tree Training ===
+[Common] Loading dataset from data/iris.csv
+[Common] Splitting into train/test and normalizing
+[DecisionTree] Building decision tree with max_depth=5
+[DecisionTree] Computing classification report (precision/recall)
+[Common] Saving model to disk as default format
+
+
+
+
+
+
+
+
