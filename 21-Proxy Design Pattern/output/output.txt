@@ -1,0 +1,21 @@
+// output when running the ProtectionProxy.cpp
+
+== Rohan (Non-Premium) tries to unlock PDF ==
+[DocumentProxy] Access denied. Only premium members can unlock PDFs.
+
+== Rashmi (Premium) unlocks PDF ==
+[RealDocumentReader] Unlocking PDF at: protected_document.pdf   
+[RealDocumentReader] PDF unlocked successfully with password: secret123
+[RealDocumentReader] Displaying PDF content...
+
+// output when running RemoteProxy.cpp
+
+[RealDataService] Initialized (simulating remote setup)
+[DataServiceProxy] Connecting to remote service...
+
+
+// output when runnig the VirtualProxy.cpp
+
+[RealImage] Loading image from disk: sample.jpg
+[RealImage] Displaying sample.jpg
+
