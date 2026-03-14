@@ -21,7 +21,7 @@ The proxy acts as a **representative of the real object**.
 
 ---
 
-# 🟩 <u>2. Basic Idea of Proxy</u>
+# 🟩 <u>Basic Idea of Proxy</u>
 
 Suppose a **user wants to access a resource**.
 
@@ -66,7 +66,7 @@ Proxy works as a **middle layer**.
 
 ---
 
-# 🟩 <u>3. Why Proxy is Introduced</u>
+# 🟩 <u>Why Proxy is Introduced</u>
 
 Proxy is introduced for several reasons.
 
@@ -219,9 +219,8 @@ Proxy **delays object creation until needed**.
 Client → ImageProxy → ImageDisplay
 ```
 
----
 
-# 🟦 <u>UML Diagram for Image Display Proxy</u>
+## 🟦 <u>UML Diagram for Image Display Proxy</u>
 
 First create an **interface/superclass**.
 
