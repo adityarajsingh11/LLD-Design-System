@@ -64,7 +64,7 @@ This problem is solved using **Template Method Pattern**.
 ---
 # <span style="color:green;">🟩 Example – AI Model Training Pipeline</span>
 
-In your notes the example is **Machine Learning Model Training**.
+The example is **Machine Learning Model Training**.
 
 ### Pipeline
 
@@ -139,7 +139,7 @@ Child Class → defines implementation
 
 # <span style="color:red;">🟨 UML Diagram for Model Training</span>
 
-According to the diagram in your notes (Page 3) 
+According to the diagram  
 
 ### Text UML
 
@@ -341,7 +341,6 @@ But actual implementation depends on subclass.
 
 # 🟧 <u>Standard UML – Template Method</u>
 
-From your notes (Page 4) 
 
 ```
 Client
@@ -433,7 +432,7 @@ Send Confirmation
 
 ---
 
-# 🟦 <u>1️⃣5️⃣ Disadvantages</u>
+# 🟦 <u> Disadvantages</u>
 
 ❌ Less flexibility in algorithm sequence
 
@@ -441,7 +440,7 @@ Send Confirmation
 
 ---
 
-# 🧠 <u>16️⃣ Key Interview Point</u>
+# 🧠 <u> Key Interview Point</u>
 
 Template Method Pattern:
 
