@@ -1,0 +1,17 @@
+
+Processing via Paytm
+------------------------------
+[Paytm] Validating payment for Aditya.
+[Paytm] Initiating payment of 1000 INR for Aditya.
+[Paytm] Confirming payment for Aditya.
+Result: SUCCESS
+------------------------------
+
+Processing via Razorpay
+------------------------------
+[Razorpay] Validating payment for Shubham.
+[Razorpay] Initiating payment of 500 USD for Shubham.
+[BankingSystem-Razorpay] Processing payment of 500...
+[Razorpay] Confirming payment for Shubham.
+Result: SUCCESS
+------------------------------
