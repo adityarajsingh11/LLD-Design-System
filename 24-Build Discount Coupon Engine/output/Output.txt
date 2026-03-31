@@ -1,0 +1,12 @@
+Original Cart Total: 25000 Rs
+Applicable Coupons:
+ - Seasonal Offer 10 % off Clothing
+ - Loyalty Discount 5% off
+ - Bulk Purchase Rs 100 off over 1000
+ - ABC Bank Rs 15 off upto 15
+Seasonal Offer 10 % off Clothing applied: 300
+Loyalty Discount 5% off applied: 1235
+Bulk Purchase Rs 100 off over 1000 applied: 100
+ABC Bank Rs 15 off upto 15 applied: 500
+Final Cart Total after discounts: 22865 Rs
+
