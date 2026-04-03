@@ -212,7 +212,8 @@ public:
 class WeeklyReplenishStrategy : public ReplenishStrategy {
 public:
     WeeklyReplenishStrategy() {}
-    void replenish(InventoryManager* manager, map<int,int> itemsToReplenish) override {
+    // FIX: unnamed parameters to suppress unused parameter warnings
+    void replenish(InventoryManager* /*manager*/, map<int,int> /*itemsToReplenish*/) override {
         cout << "[WeeklyReplenish] Weekly replenishment triggered for inventory.\n";
     }
 };
@@ -237,6 +238,7 @@ public:
         // We could have made another factory called InventoryStoreFactory to get
         // DbInventoryStore by enum and hence make it loosely coupled.
         inventoryManager = new InventoryManager(new DbInventoryStore);
+        replenishStrategy = nullptr; // FIX: initialize to nullptr to avoid undefined behavior
 
     }
     ~DarkStore() {
@@ -268,7 +270,7 @@ public:
     }
 
     void addStock(int sku, int qty) {
-        Product* prod = ProductFactory::createProduct(sku);
+        // FIX: removed unused 'prod' variable, directly calling addStock
         inventoryManager->addStock(sku, qty);
     }
 
@@ -327,8 +329,11 @@ public:
                 distList.push_back(make_pair(d, ds));
             }
         }
+        // FIX: replaced 'auto' in lambda params with explicit types for C++11/14 compat
         sort(distList.begin(), distList.end(),
-             [](auto &a, auto &b){ return a.first < b.first; });
+             [](const pair<double,DarkStore*>& a, const pair<double,DarkStore*>& b){
+                 return a.first < b.first;
+             });
 
         vector<DarkStore*> result;
         for (auto &p : distList) {
@@ -525,7 +530,10 @@ public:
                 bool assigned = false;
                 vector<int> toErase;
                 
-                for (auto& [sku, qtyNeeded] : allItems) {
+                // FIX: replaced structured binding (C++17) with .first/.second (C++11 compatible)
+                for (auto& it : allItems) {
+                    int sku       = it.first;
+                    int qtyNeeded = it.second;
 
                     int availableQty = store->checkStock(sku);
                     if (availableQty <= 0) continue;
@@ -562,10 +570,11 @@ public:
             }
     
             //  if remaining still has entries, we print which SKUs/quantities could not be fulfilled.
+            // FIX: replaced structured binding (C++17) with .first/.second (C++11 compatible)
             if (!allItems.empty()) {
                 cout << "  Could not fulfill:\n";
-                for (auto& [sku, qty] : allItems) {
-                    cout << "    SKU " << sku << " x" << qty << "\n";
+                for (auto& it : allItems) {
+                    cout << "    SKU " << it.first << " x" << it.second << "\n";
                 }
             }
 
@@ -583,9 +592,9 @@ public:
         for (auto& item : order->items) {
             cout << "    SKU " << item.first->getSku()
                  << " (" << item.first->getName() << ") x" << item.second
-                 << " @ ₹" << item.first->getPrice() << "\n";
+                 << " @ Rs." << item.first->getPrice() << "\n"; // FIX: Rs. instead of rupee symbol (MinGW Unicode issue)
         }
-        cout << "  Total: ₹" << order->totalAmount << "\n  Partners:\n";
+        cout << "  Total: Rs." << order->totalAmount << "\n  Partners:\n"; // FIX: Rs. instead of rupee symbol
         for (auto* dp : order->partners) {
             cout << "    " << dp->name << "\n";
         }
@@ -623,7 +632,7 @@ public:
         DarkStoreManager* dsManager = DarkStoreManager::getInstance();
         vector<DarkStore*> nearbyStores = dsManager->getNearbyDarkStores(user->x, user->y, 5.0);
 
-        // Collect each SKU → price (so we only display each product once)
+        // Collect each SKU -> price (so we only display each product once)
         map<int, double> skuToPrice;
         map<int, string> skuToName;
 
@@ -643,7 +652,7 @@ public:
         for (auto& entry : skuToPrice) {
             int sku = entry.first;
             double price = entry.second;
-            cout << "  SKU " << sku << " - " << skuToName[sku] << " @ ₹" << price << "\n";
+            cout << "  SKU " << sku << " - " << skuToName[sku] << " @ Rs." << price << "\n"; // FIX: Rs. instead of rupee symbol
         }
     }
 
@@ -712,6 +721,3 @@ int main() {
 
     return 0;
 }
-
-
-// not supported in C++17 so yeh code run nhi ho rha h 
