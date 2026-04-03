@@ -1,0 +1,50 @@
+Adding stocks in DarkStoreA....
+[InventoryManager] Added SKU 101 Qty 5
+[InventoryManager] Added SKU 102 Qty 2
+
+Adding stocks in DarkStoreB....
+[InventoryManager] Added SKU 101 Qty 3
+[InventoryManager] Added SKU 103 Qty 10
+
+Adding stocks in DarkStoreC....
+[InventoryManager] Added SKU 102 Qty 5
+[InventoryManager] Added SKU 201 Qty 7
+
+User with name Aditya comes on platform
+
+[Zepto] All Available products within 5 KM for Aditya:
+  SKU 101 - Apple @ ₹20
+  SKU 102 - Banana @ ₹10
+  SKU 103 - Chocolate @ ₹50
+  SKU 201 - T-Shirt @ ₹500
+
+Adding items to cart
+[Cart] Added SKU 101 (Apple) x4
+[Cart] Added SKU 102 (Banana) x3
+[Cart] Added SKU 103 (Chocolate) x2
+
+[OrderManager] Placing Order for: Aditya
+  Splitting order across stores...
+   Checking: DarkStoreA
+     DarkStoreA supplies SKU 101 x4
+     DarkStoreA supplies SKU 102 x2
+     Assigned: Partner1 for DarkStoreA
+   Checking: DarkStoreC
+     DarkStoreC supplies SKU 102 x1
+     Assigned: Partner2 for DarkStoreC
+   Checking: DarkStoreB
+     DarkStoreB supplies SKU 103 x2
+     Assigned: Partner3 for DarkStoreB
+
+[OrderManager] Order #1 Summary:
+  User: Aditya
+  Items:
+    SKU 101 (Apple) x4 @ ₹20
+    SKU 102 (Banana) x2 @ ₹10
+    SKU 102 (Banana) x1 @ ₹10
+    SKU 103 (Chocolate) x2 @ ₹50
+  Total: ₹210
+  Partners:
+    Partner1
+    Partner2
+    Partner3
