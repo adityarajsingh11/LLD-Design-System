@@ -1,0 +1,38 @@
+
+---- User Profiles ----
+===== Profile =====
+Name: Rohan
+Age: 28
+Gender: Male
+Bio: I am a software developer
+Photos: rohan_photo1.jpg, 
+Interests: Coding (Programming), Travel (Lifestyle), Music (Entertainment), 
+Location: 1.01, 1.02
+===================
+===== Profile =====
+Name: Neha
+Age: 27
+Gender: Female
+Bio: Art teacher who loves painting and traveling.
+Photos: neha_photo1.jpg, 
+Interests: Painting (Art), Travel (Lifestyle), Music (Entertainment), 
+Location: 1.03, 1.04
+===================
+
+---- Nearby Users for user1 (within 5km) ----
+Found 1 nearby users
+- Neha (user2)
+
+---- Swipe Actions ----
+User1 swipes right on User2
+User2 swipes right on User1
+Notification for user user2: You have a new match with Rohan!
+Notification for user user1: You have a new match with Neha!
+
+---- Chat Room ----
+Notification for user user2: New message from Rohan
+Notification for user user1: New message from Neha
+===== Chat Room: user2_user1 =====
+[2026-04-06 01:38:02] user1: Hi Neha, Kaise ho?
+[2026-04-06 01:38:02] user2: Hi Rohan, Ma bdiya tum btao
+=========================
