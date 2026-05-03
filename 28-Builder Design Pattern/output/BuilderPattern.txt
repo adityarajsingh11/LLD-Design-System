@@ -1,0 +1,9 @@
+Executing POST request to https://api.example.com
+Query Parameters:
+  key=12345
+Headers:
+  Accept: application/json
+  Content-Type: application/json
+Body: {"name": "Aditya"}
+Timeout: 60 seconds
+Request executed successfully!

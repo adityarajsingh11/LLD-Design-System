@@ -1,0 +1,6 @@
+Executing POST request to https://api.example.com/products
+Headers:
+  Content-Type: application/json
+Body: {"product": "Laptop", "price": 49999}
+Timeout: 45 seconds
+Request executed successfully!
