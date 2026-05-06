@@ -5,7 +5,7 @@
 
 ---
 
-# 🟩 1. Introduction
+# 🟩 Introduction
 
 👉 Iterator Design Pattern is used to **traverse (iterate) elements of a collection**.
 
@@ -44,7 +44,9 @@ next()
 * next() → next element return karta hai aur pointer aage move karta hai
 
 Short:
+
 hasNext = check
+
 next = value + move
 
 
@@ -244,9 +246,13 @@ User:
 # 🟩 Advantages
 
 ✔ SRP follow
+
 ✔ Clean code
+
 ✔ Flexible traversal
+
 ✔ Easy to extend
+
 ✔ Data structure change safe
 
 ---
@@ -254,6 +260,7 @@ User:
 # 🟩 Disadvantages
 
 ❌ Extra classes
+
 ❌ Slight complexity increase
 
 ---
