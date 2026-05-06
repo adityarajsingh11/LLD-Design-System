@@ -1,0 +1,5 @@
+LinkedList contents: 1 2 3 
+BinaryTree inorder: 1 2 3 
+Playlist songs:
+  Admirin You by Karan Aujla
+  Husn by Anuv Jain
