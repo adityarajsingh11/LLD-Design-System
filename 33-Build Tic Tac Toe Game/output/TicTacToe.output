@@ -1,0 +1,53 @@
+
+=== TIC TAC TOE GAME ===
+Enter board size (e.g., 3 for 3x3): 3
+[Notification] Tic Tac Toe Game Started!
+
+  0 1 2 
+0 - - - 
+1 - - - 
+2 - - - 
+
+Aditya (X) - Enter row and column: 
+0 1
+[Notification] Aditya played (0,1)
+
+  0 1 2 
+0 - X - 
+1 - - - 
+2 - - - 
+
+Harshita (O) - Enter row and column: 0 2
+[Notification] Harshita played (0,2)
+
+  0 1 2 
+0 - X O 
+1 - - - 
+2 - - - 
+
+Aditya (X) - Enter row and column: 1 1
+[Notification] Aditya played (1,1)
+
+  0 1 2 
+0 - X O 
+1 - X - 
+2 - - - 
+
+Harshita (O) - Enter row and column: 1 2
+[Notification] Harshita played (1,2)
+
+  0 1 2 
+0 - X O 
+1 - X O 
+2 - - - 
+
+Aditya (X) - Enter row and column: 2 1
+[Notification] Aditya played (2,1)
+
+  0 1 2 
+0 - X O 
+1 - X O 
+2 - X - 
+
+Aditya wins!
+[Notification] Aditya wins!
