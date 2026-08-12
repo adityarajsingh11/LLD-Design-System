@@ -1,9 +1,9 @@
 
 ---
 
-# 📘 **LLD – DAY 8**
+# 📘 LLD – DAY 8
 
-## **Design Patterns (Strategy Design Pattern)**
+## Strategy Design Pattern
 
 ---
 
