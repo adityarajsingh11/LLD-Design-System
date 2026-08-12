@@ -1,8 +1,9 @@
+
 ---
 
-# 📘 **LLD – DAY 7**
+# 📘 LLD – DAY 7
 
-## **Case Study: Document Editor (Google Docs like system)**
+## Case Study: Document Editor (Google Docs like system)
 
 ---
 
