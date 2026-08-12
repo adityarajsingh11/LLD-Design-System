@@ -1,7 +1,7 @@
 
 ---
 
-# 📘 **DAY 17 – FACADE DESIGN PATTERN**
+# 📘 DAY 17 – FACADE DESIGN PATTERN
 
 ---
 
