@@ -1,7 +1,7 @@
 
 ---
 
-# 📘 **DAY 13 – DECORATOR DESIGN PATTERN**
+# 📘 DAY 13 – DECORATOR DESIGN PATTERN
 
 ---
 
