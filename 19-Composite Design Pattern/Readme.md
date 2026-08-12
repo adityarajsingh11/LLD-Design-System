@@ -1,7 +1,7 @@
  
 ---
 
-# 🎨📘 **DAY 19 – COMPOSITE DESIGN PATTERN**
+# 🎨📘 DAY 19 – COMPOSITE DESIGN PATTERN
 
 ---
 
