@@ -1,8 +1,9 @@
+
 ---
 
 # 📘 **LLD – DAY 9**
 
-## 🏭 **Factory Design Pattern**
+## 🏭 Factory Design Pattern
 
 ---
 
