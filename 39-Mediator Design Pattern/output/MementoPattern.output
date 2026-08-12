@@ -1,0 +1,34 @@
+
+=== BEGIN TRANSACTION ===
+Creating database backup...
+Inserted: user1 = Aditya
+Inserted: user2 = Rohit
+=== COMMIT TRANSACTION ===
+Transaction committed successfully!
+
+--- Current Database State ---
+user1 = Aditya
+user2 = Rohit
+-----------------------------
+
+=== BEGIN TRANSACTION ===
+Creating database backup...
+Inserted: user3 = Saurav
+Inserted: user4 = Manish
+
+--- Current Database State ---
+user1 = Aditya
+user2 = Rohit
+user3 = Saurav
+user4 = Manish
+-----------------------------
+
+ERROR: Something went wrong during transaction!
+=== ROLLBACK TRANSACTION ===
+Database restored from backup!
+Transaction rolled back!
+
+--- Current Database State ---
+user1 = Aditya
+user2 = Rohit
+-----------------------------
